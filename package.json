@@ -6,9 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VasylMymriak/Seafood.git"
+  },
+  "author": "VasylMymriak",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VasylMymriak/Seafood/issues"
+  },
+  "homepage": "https://github.com/VasylMymriak/Seafood#readme",
   "devDependencies": {
     "gh-pages": "^6.1.1"
   }
