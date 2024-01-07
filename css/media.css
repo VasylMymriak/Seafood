@@ -1,0 +1,226 @@
+/*Адаптив*/
+@media (max-width: 1160px){
+    .product__name {
+    width: 356px;
+    }
+    .footer .logo,
+    .footer .menu{
+        display: none;
+    }
+    .footer {
+        padding: 40px 0 40px;
+    }
+    .footer__inner {
+        justify-content: center;
+    }
+    .footer-social__list {
+        padding-bottom: 0;
+    }
+}
+@media (max-width: 1100px) {
+    .seafood__item{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .seafood img{
+        max-width: 100%;
+    }
+    .seafood__blockquote {
+        max-width: 100%;
+    }
+    .seafood__item--text-right {
+        flex-wrap: wrap-reverse;
+    }
+    .seafood__item-content {
+        padding-right: 0px;    
+    }
+    .seafood__item--text-right .seafood__item-content {
+        padding-left: 0px;  
+        margin-right: 0;
+    }
+    .seafood__item-title,
+    .seafood__text{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px){
+   .menu__list {
+    position: absolute;
+    right: 20%;
+    left: 20%;
+    background-color: #fff;
+    display: block;
+    top: -350px;
+    transition: all .6s;
+    border-radius: 20px;
+    z-index: 5;
+   }
+   .menu__list.menu__list--active{
+     top: 75px;
+   }
+   .menu__btn {
+    display: block;
+   }
+   .menu {
+    margin: -10px 20px 0 auto;
+   }
+   .menu__item + .menu__item {
+    margin-left: 0;
+   }
+   .menu__link {
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+   }
+   .menu__link:hover {
+    border: none;
+   }
+   .product__name {
+    width: 250px;
+    }
+}
+@media (max-width: 890px) {
+    .product {
+        padding-top: 30px;
+    }
+    .product__inner {
+        display: block;
+        }
+    .product__content {
+        margin: 0 auto;
+    }
+    .product__name {
+        width: 100%;
+        padding-top: 0;
+        margin-bottom: 115px;
+    }
+    .product__name-item.slick-current{
+        line-height: 44px;
+    }
+    .product__name .slick-dots {
+        left: 0;
+        right: 0;
+        top: 130px;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+    .product__name .slick-dots button {
+        margin: 0 auto;
+        width: 10px;
+        height: 10px;
+        font-size: 0;
+        padding: 0;
+        border-radius: 50%;
+        background-color: #c4c4c4;
+    }
+    .product__name .slick-active button {
+        background-color: #001E64;
+    }
+}
+@media (max-width: 745px) {
+    .title {
+        font-size: 50px;
+        line-height: 66px;
+        max-width: 100%;
+        padding-left: 0;
+        text-align: center;
+
+    }
+}
+@media (max-width: 650px) {
+    .product__content-box {
+        display: block;   
+    }
+    
+    .product__content-list {
+        width: 100%;
+    }
+    .product__content {
+        width: 100%;
+    }
+    .seafood-box__items {
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+
+    }
+    .seafood-box__item {
+        margin-bottom: 40px;
+    }
+    .seafood-box {
+        display: none;
+    }
+    .contacts {
+        background-image: none;
+    }
+    .contact__box {
+        width: 100%;
+        padding: 33px 0 33px 0;
+    }
+}
+
+@media (max-width: 470px) {
+    .header__slider {
+        padding-left: 50px;
+    }
+    .slick-dots{
+        left: 7px;
+    }
+    .slick-prev {
+        left: 12px;
+    }
+    .slick-next {
+        left: 10px;
+    }
+    .header__content-btn{
+        margin-left: 50px;
+    }
+    .title {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .product {
+        padding-top: 50px;
+    }
+    .product__content-btn {
+        padding: 12px 55px;
+        
+    }
+    
+}
+@media (max-width: 360px){
+    .title {
+        padding-top: 125px;
+    }
+    .phone {
+        margin-right: 0;
+    }
+    .logo {
+        margin-left: 0;
+    }
+    .menu__list {
+        right: 10%;
+        left: 10%;
+    }
+    .header__slider {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .slick-dots {
+        z-index: -1;
+    }
+    .slick-prev {
+        z-index: -1;
+    }
+    .slick-next {
+        z-index: -1;
+    }
+    .header__content-btn{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo__img {
+        width: 50%;
+    }
+}
